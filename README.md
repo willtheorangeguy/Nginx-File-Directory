@@ -6,36 +6,26 @@ In order to change the `index.html` file, replace the following with their real 
 
 **Basics:**
 ```html
-<title id="title">Index of example</title>
+<head><title>Index of /directory</title></head>
 ```
-- Update the `example` placeholder text with the actual directory name. This will be the title of the webpage. 
+- Update the `directory` placeholder text with the actual directory name. This will be the title of the webpage. 
 ```html
-<h1 id="header">Index of :\directory</h1>
+<h1>Index of /directory</h1>
 ```
-- Update the `:\directory` placeholder text with the actual directory path. This will be the title displayed on the page.  
+- Update the `directory` placeholder text with the actual directory path. This will be the title displayed on the page.  
 ```html
-<div id="parentDirLinkBox" style="display:none">
-  <a id="parentDirLink" href="up/level" class="icon up">
-    <span id="parentDirText">[parent directory]</span>
-  </a>
-</div>
+<!--<a href="../">../</a>-->
 ```
-- If this is a directory inside of another directory, remove the `style="display:none"` placeholder. 
-- Change the `up/level` with the actual link to the folder above.
+- If this is a directory inside of another directory, remove the `<!--` and `-->`. 
+- Change the `../` with the actual link to the folder above.
 
 **For a File or Folder:**
 ```html
-<tr>
-    <td data-value="File"><a class="icon file" draggable="true" href="link/to/file">File.txt</a></td>
-    <td class="detailsColumn">File</td><td class="detailsColumn">0.00 MB</td><td class="detailsColumn">MM/DD/YY, HH:MM:SS PM</td>
-  </tr>
+<a href="folder/">folder/</a>                                           MM-DD-YYYY HH:MM                   -
 ```
-- Replace the `"File"` placeholder value with the real name of the file. 
-- Replace the `"link/to/file"` link with the actual link to the file. 
-- Replace the `File.txt` placeholder name with the real name and extension of the file.
-- Replace the `File` placeholder text with the actual file type.
-- Replace the `0.00 MB` placeholder size with the real size of the file. 
-- Replace the `MM/DD/YY, HH:MM:SS PM` placeholder date with the date the file was uploaded. 
+- Replace the `folder/` link with the actual link to the file or folder. 
+- Replace the `folder/` placeholder name with the real name of the file or folder.
+- Replace the `MM-DD-YYYY HH:MM` placeholder date with the date the file or folder was uploaded. 
 - Add more of these rows as neccesary. 
 
 ## Credits
