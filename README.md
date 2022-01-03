@@ -34,8 +34,8 @@ None of this would be possible without the [nginx Dev Team](http://nginx.org/en/
 ## nginx License
 ```
 /* 
- * Copyright (C) 2002-2021 Igor Sysoev
- * Copyright (C) 2011-2021 Nginx, Inc.
+ * Copyright (C) 2002-2022 Igor Sysoev
+ * Copyright (C) 2011-2022 Nginx, Inc.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
