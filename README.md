@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/willtheorangeguy/Nginx-File-Directory/main/docs/images/logo.png" height="250px" width="4000px" alt="Nginx File Directory">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/Nginx-File-Directory/main/docs/images/logo.png" height="250px" alt="Nginx File Directory">
   <br>
   Nginx File Directory
   <br>
