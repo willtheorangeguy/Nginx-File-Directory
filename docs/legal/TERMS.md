@@ -1,8 +1,8 @@
 # Terms and Conditions
 
-Last updated: March 01, 2022.
+Last updated: August 28, 2022.
 
-Please read these terms and conditions carefully before using Nginx File Directory.
+Please read these terms and conditions carefully before using the Nginx File Directory.
 
 ## Interpretation and Definitions
 
@@ -96,4 +96,4 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 If you have any questions about these Terms and Conditions, You can contact us:
 
-- By visiting this page on our website: [github.com/willtheorangeguy/Nginx-File-Directory](github.com/willtheorangeguy/Nginx-File-Directory).
+- Via our Discord: [https://discord.gg/uQR9AfwBxU](https://discord.gg/uQR9AfwBxU).
