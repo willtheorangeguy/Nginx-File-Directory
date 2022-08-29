@@ -12,7 +12,9 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="GitHub Actions State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/pages/pages-build-deployment/badge.svg">
+  <img alt="GitHub Pages State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/pages/pages-build-deployment/badge.svg">
+  <!-- Gitleaks -->
+  <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/gitleaks.yml/badge.svg">
   <!-- Version -->
   <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Nginx-File-Directory">
   <!-- Issues -->
@@ -107,7 +109,7 @@ However, **to make this your own directory**, follow the steps below:
 
 ## Support
 
-Further customization options for different types of files and folder structures can be found in [`CUSTOMIZATION.md`](https://github.com/willtheorangeguy/Nginx-File-Directory/tree/main/docs). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Nginx-File-Directory/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Nginx-File-Directory/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Nginx-File-Directory/discussions/new)** or join our **[Discord](https://discord.gg/uQR9AfwBxU)**.
+Further customization options for different types of files and folder structures can be found in [`CUSTOMIZATION.md`](https://github.com/willtheorangeguy/Nginx-File-Directory/blob/main/docs/CUSTOMIZATION.md). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Nginx-File-Directory/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Nginx-File-Directory/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Nginx-File-Directory/discussions/new)** or join our **[Discord](https://discord.gg/uQR9AfwBxU)**.
 
 ## Contributing
 
@@ -126,10 +128,10 @@ This software uses the following open source packages, projects, services or web
 <!-- Credits Table -->
 <table>
   <tr>
-    <th align="center"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="200" height="200" alt="GitHub"/></th>
-    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="200" height="200" alt="W3C"/></th>
-    <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="250" height="150" alt="W3Schools"/></th>
-    <th align="center"><img src="https://www.nginx.com/wp-content/uploads/2020/06/NGINX-Logo-White-Endorsement-RGB.svg" width="250" height="200" alt="Nginx"/></th>
+    <th align="center"><img src="https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F2107379463%2Ficons%2Fmonochrome_large.png?w=240&h=240&s=8a19bbc158996d098e2fb18310ba7f33" width="150" height="150" alt="GitHub"/></th>
+    <th align="center"><img src="https://pbs.twimg.com/profile_images/1069553420854591489/stZUQMcC_400x400.jpg" width="150" height="150" alt="W3C"/></th>
+    <th align="center"><img src="https://videos.w3schools.com/files/images/w3schools_logo_500_04AA6D.png" width="150" height="150" alt="W3Schools"/></th>
+    <th align="center"><img src="https://www.logolynx.com/images/logolynx/06/0614238d6c1c151cf0f8201f4463cc8a.png" width="150" height="150" alt="Nginx"/></th>
   </tr>
   <tr>
     <td align="center">GitHub</td>
@@ -157,6 +159,6 @@ This software uses the following open source packages, projects, services or web
 
 ## License
 
-**The website code in this repository is created by the [Nginx Development Team](https://nginx.org/) and maintained by the Nginx Authors. The browser is released under the BSD 2-Clause “Simplified” License, and this project follows those licensing guidelines.**
+**The website code in this repository is created by the [Nginx Development Team](https://nginx.org/) and maintained by the Nginx Authors. The server is released under the BSD 3-Clause License, and this project follows those licensing guidelines.**
 
 This project is licensed under the [BSD 2-Clause “Simplified” License](https://choosealicense.com/licenses/bsd-2-clause/) - see the [`LICENSE`](LICENSE.md) file for details. See the [Privacy Policy](https://github.com/willtheorangeguy/Nginx-File-Directory/blob/main/docs/legal/PRIVACY.md) and [Terms and Conditions](https://github.com/willtheorangeguy/Nginx-File-Directory/blob/main/docs/legal/TERMS.md) for legal information.
