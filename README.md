@@ -109,7 +109,7 @@ However, **to make this your own directory**, follow the steps below:
 
 ## Support
 
-Further customization options for different types of files and folder structures can be found in [`CUSTOMIZATION.md`](https://github.com/willtheorangeguy/Nginx-File-Directory/blob/main/docs/CUSTOMIZATION.md). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Nginx-File-Directory/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Nginx-File-Directory/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Nginx-File-Directory/discussions/new)** or join our **[Discord](https://discord.gg/uQR9AfwBxU)**.
+Further customization options for different types of files and folder structures can be found in [`CUSTOMIZATION`](https://github.com/willtheorangeguy/Nginx-File-Directory/blob/main/docs/CUSTOMIZATION.md). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Nginx-File-Directory/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Nginx-File-Directory/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Nginx-File-Directory/discussions/new)** or join our **[Discord](https://discord.gg/uQR9AfwBxU)**.
 
 ## Contributing
 
