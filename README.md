@@ -12,6 +12,8 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
+  <img alt="Docker State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/docker-publish.yml/badge.svg">
+  <!-- Stability -->
   <img alt="GitHub Pages State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/pages/pages-build-deployment/badge.svg">
   <!-- Gitleaks -->
   <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/gitleaks.yml/badge.svg">
@@ -70,6 +72,18 @@ $ cd Nginx-File-Directory
 
 # Run the webpage
 $ index.html
+```
+
+You can also pull the [Docker](https://www.docker.com/) image from GitHub Packages. From your command line:
+
+```bash
+# Pull image
+$ docker pull ghcr.io/willtheorangeguy/nginx-file-directory:main
+
+# Run container
+$ docker run -d -p 80 ghcr.io/willtheorangeguy/nginx-file-directory:main
+
+# Now, navigate to localhost in your browser to see the webpage
 ```
 
 However, **to make this your own directory**, follow the steps below:
