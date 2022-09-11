@@ -81,7 +81,7 @@ You can also pull the [Docker](https://www.docker.com/) image from GitHub Packag
 $ docker pull ghcr.io/willtheorangeguy/nginx-file-directory:main
 
 # Run container
-$ docker run -d -p 80 ghcr.io/willtheorangeguy/nginx-file-directory:main
+$ docker run -d -p 8000:80 ghcr.io/willtheorangeguy/nginx-file-directory:main
 
 # Now, navigate to localhost in your browser to see the webpage
 ```
