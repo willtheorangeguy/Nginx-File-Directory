@@ -14,7 +14,7 @@
   <!-- Stability -->
   <img alt="Docker State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/docker-publish.yml/badge.svg">
   <!-- Stability -->
-  <img alt="GitHub Pages State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/pages/pages-build-deployment/badge.svg">
+  <img alt="GitHub Pages State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/pages.yml/badge.svg">
   <!-- Gitleaks -->
   <img alt="Gitleaks State" src="https://github.com/willtheorangeguy/Nginx-File-Directory/actions/workflows/gitleaks.yml/badge.svg">
   <!-- Version -->
