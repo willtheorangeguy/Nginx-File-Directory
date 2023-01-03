@@ -1,4 +1,4 @@
-# Copyright (C) 2002-2021 Igor Sysoev and Copyright (C) 2011-2022 Nginx, Inc. All rights reserved.
+# Copyright (C) 2002-2021 Igor Sysoev and Copyright (C) 2011-2023 Nginx, Inc. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
