@@ -9,7 +9,9 @@ All of these instructions require [a text editor](https://code.visualstudio.com/
 1. _Line 8_: Update the `directory` placeholder text between the `<title>...</title>` tags with the actual directory name. This will be the title of the webpage.
 
 ```html
-<head><title>Index of /directory</title></head>
+<head>
+  <title>Index of /directory</title>
+</head>
 ```
 
 2. _Line 10_: Update the `directory` placeholder text between the `<h1>...</h1>` tags with the actual directory path. This will be the title displayed on the page.
@@ -29,21 +31,21 @@ All of these instructions require [a text editor](https://code.visualstudio.com/
 ## For a Folder
 
 ```html
-<a href="folder/">folder/</a>                                           MM-DD-YYYY HH:MM                   -
+<a href="folder/">folder/</a> MM-DD-YYYY HH:MM -
 ```
 
-* Replace the `folder/` link (between the `href="..."` tag) with the actual link to the folder.
-* Replace the `folder/` placeholder name (between the `<a>...</a>` tags) with the real name of the folder.
-* Replace the `MM-DD-YYYY HH:MM` placeholder date with the date the folder was uploaded. **Do not delete the spaces as they are necessary for spacing.**
-* Add more of these rows as necessary.
+- Replace the `folder/` link (between the `href="..."` tag) with the actual link to the folder.
+- Replace the `folder/` placeholder name (between the `<a>...</a>` tags) with the real name of the folder.
+- Replace the `MM-DD-YYYY HH:MM` placeholder date with the date the folder was uploaded. **Do not delete the spaces as they are necessary for spacing.**
+- Add more of these rows as necessary.
 
 ## For a File
 
 ```html
-<a href="file/">file/</a>                                           MM-DD-YYYY HH:MM                   -
+<a href="file/">file/</a> MM-DD-YYYY HH:MM -
 ```
 
-* Replace the `file/` link (between the `href="..."` tag) with the actual link to the file.
-* Replace the `file/` placeholder name (between the `<a>...</a>` tags) with the real name of the file.
-* Replace the `MM-DD-YYYY HH:MM` placeholder date with the date the file was uploaded. **Do not delete the spaces as they are necessary for spacing.**
-* Add more of these rows as necessary.
+- Replace the `file/` link (between the `href="..."` tag) with the actual link to the file.
+- Replace the `file/` placeholder name (between the `<a>...</a>` tags) with the real name of the file.
+- Replace the `MM-DD-YYYY HH:MM` placeholder date with the date the file was uploaded. **Do not delete the spaces as they are necessary for spacing.**
+- Add more of these rows as necessary.

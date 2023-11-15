@@ -4,7 +4,7 @@
 
 ### Added
 
-- Docker image and contianer. 
+- Docker image and contianer.
 
 ### Changed
 

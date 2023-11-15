@@ -43,15 +43,16 @@
 </p>
 
 <!-- Screenshot(s) -->
+
 ![screenshot](https://raw.githubusercontent.com/willtheorangeguy/Nginx-File-Directory/main/docs/images/welcome.png)
 
 ## Key Features
 
-* Basic file directory view.
-* Name and upload date.
-* Folder and file links.
-* Compatible with all web servers and websites.
-* Cross platform.
+- Basic file directory view.
+- Name and upload date.
+- Folder and file links.
+- Compatible with all web servers and websites.
+- Cross platform.
 
 ## Download
 
@@ -93,7 +94,9 @@ However, **to make this your own directory**, follow the steps below:
 1. _Line 8_: Update the `directory` placeholder text between the `<title>...</title>` tags with the actual directory name. This will be the title of the webpage.
 
 ```html
-<head><title>Index of /directory</title></head>
+<head>
+  <title>Index of /directory</title>
+</head>
 ```
 
 2. _Line 10_: Update the `directory` placeholder text between the `<h1>...</h1>` tags with the actual directory path. This will be the title displayed on the page.
@@ -113,13 +116,13 @@ However, **to make this your own directory**, follow the steps below:
 ### For a File or Folder
 
 ```html
-<a href="folder/">folder/</a>                                           MM-DD-YYYY HH:MM                   -
+<a href="folder/">folder/</a> MM-DD-YYYY HH:MM -
 ```
 
-* Replace the `folder/` or `file/` link (between the `href="..."` tag) with the actual link to the file or folder.
-* Replace the `folder/` or `file/` placeholder name (between the `<a>...</a>` tags) with the real name of the file or folder.
-* Replace the `MM-DD-YYYY HH:MM` placeholder date with the date the file or folder was uploaded.
-* Add more of these rows as necessary.
+- Replace the `folder/` or `file/` link (between the `href="..."` tag) with the actual link to the file or folder.
+- Replace the `folder/` or `file/` placeholder name (between the `<a>...</a>` tags) with the real name of the file or folder.
+- Replace the `MM-DD-YYYY HH:MM` placeholder date with the date the file or folder was uploaded.
+- Add more of these rows as necessary.
 
 ## Support
 
@@ -163,13 +166,13 @@ This software uses the following open source packages, projects, services or web
 
 ## Contributors
 
-* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
+- [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
 
 ## You may also like...
 
-* [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
-* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout! Easily used and customized, with support for multiple workout plans, different muscle groups and video workouts.
-* [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
+- [Running Calculator](https://github.com/willtheorangeguy/Running-Calculator) - A running speed calculator for any unit of distance.
+- [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout! Easily used and customized, with support for multiple workout plans, different muscle groups and video workouts.
+- [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
 
 ## License
 
