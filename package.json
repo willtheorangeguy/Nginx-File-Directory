@@ -1,0 +1,22 @@
+{
+  "name": "nginx-file-directory",
+  "version": "1.0.0",
+  "description": "The basic Nginx file directory page, as a simple HTML page.",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willtheorangeguy/Nginx-File-Directory.git"
+  },
+  "author": "willtheorangeguy",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/willtheorangeguy/Nginx-File-Directory/issues"
+  },
+  "homepage": "https://github.com/willtheorangeguy/Nginx-File-Directory#readme"
+}
