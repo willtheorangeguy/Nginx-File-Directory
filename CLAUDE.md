@@ -30,6 +30,7 @@ There is no build step. Edit `index.html` directly, then test in a browser.
 No automated test suite exists. `npm test` exits with an error by design.
 
 Manual testing checklist:
+
 - Open `index.html` in Chrome, Firefox, and Edge
 - Validate HTML via W3C validator
 - Check accessibility basics
@@ -54,11 +55,11 @@ docker run -p 8080:80 nginx-file-directory
 
 ## CI/CD
 
-| Workflow | Trigger | Purpose |
-|---|---|---|
+| Workflow             | Trigger                       | Purpose                          |
+| -------------------- | ----------------------------- | -------------------------------- |
 | `docker-publish.yml` | Push, tag, PR, daily schedule | Build/push Docker images to GHCR |
-| `pages.yml` | Push to main | Deploy to GitHub Pages |
-| `gitleaks.yml` | Push/PR | Secret scanning |
+| `pages.yml`          | Push to main                  | Deploy to GitHub Pages           |
+| `gitleaks.yml`       | Push/PR                       | Secret scanning                  |
 
 ## Key Files to Know
 
