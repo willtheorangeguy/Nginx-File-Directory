@@ -29,11 +29,11 @@ It also explains the absence of icons. Nginx does not emit them, so neither does
 Nothing reads a directory. Every line exists because someone typed it, and nothing validates
 that a link resolves or a date is accurate.
 
-| Property | Because |
-|---|---|
-| Works from `file://` | Nothing is fetched |
-| Deploys by copying one file | There is nothing to build |
-| Goes stale silently | Nothing re-reads the directory |
+| Property                    | Because                        |
+| --------------------------- | ------------------------------ |
+| Works from `file://`        | Nothing is fetched             |
+| Deploys by copying one file | There is nothing to build      |
+| Goes stale silently         | Nothing re-reads the directory |
 
 A real Nginx server generates this per request. This is a picture of one.
 
@@ -50,11 +50,11 @@ than necessity. Any web server, or none, will do.
 
 ## Automation
 
-| Workflow | Purpose |
-|---|---|
-| `pages.yml` | Deploys to GitHub Pages on push to `main` |
-| `docker-publish.yml` | Publishes the image to GHCR |
-| `gitleaks.yml` | Scans for committed secrets |
+| Workflow             | Purpose                                   |
+| -------------------- | ----------------------------------------- |
+| `pages.yml`          | Deploys to GitHub Pages on push to `main` |
+| `docker-publish.yml` | Publishes the image to GHCR               |
+| `gitleaks.yml`       | Scans for committed secrets               |
 
 Dependabot updates Actions and the Docker base image. There are no application dependencies.
 

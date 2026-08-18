@@ -43,11 +43,11 @@ server to run, which is one of the more genuinely useful things this project is 
 
 ## Automation
 
-| Workflow | Trigger | Does |
-|---|---|---|
-| `pages.yml` | push to `main` | Deploys to GitHub Pages |
-| `docker-publish.yml` | push to `main` | Builds and pushes to GHCR |
-| `gitleaks.yml` | pushes and PRs | Scans for committed secrets |
+| Workflow             | Trigger        | Does                        |
+| -------------------- | -------------- | --------------------------- |
+| `pages.yml`          | push to `main` | Deploys to GitHub Pages     |
+| `docker-publish.yml` | push to `main` | Builds and pushes to GHCR   |
+| `gitleaks.yml`       | pushes and PRs | Scans for committed secrets |
 
 ## Nothing to configure
 
