@@ -28,12 +28,12 @@ directory. Leave `../` as the target to keep the link relative.
 
 For each line, replace:
 
-| Placeholder | With |
-|---|---|
+| Placeholder                     | With                                                 |
+| ------------------------------- | ---------------------------------------------------- |
 | The text between the `<a>` tags | The display name — folders conventionally end in `/` |
-| The `href` | The real path |
-| `MM-DD-YYYY HH:MM` | The modified date |
-| `-` | The size, or leave as a dash for folders |
+| The `href`                      | The real path                                        |
+| `MM-DD-YYYY HH:MM`              | The modified date                                    |
+| `-`                             | The size, or leave as a dash for folders             |
 
 Nginx's own format is name, date, size — no icon column and no description. That is why this
 page has neither.
