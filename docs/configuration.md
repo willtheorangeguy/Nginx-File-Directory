@@ -1,4 +1,4 @@
-# Nginx File Directory Customization
+# Nginx File Directory — Configuration
 
 The Nginx File Directory has been designed to be heavily customizable. More file and folder listings can be added and directory paths can be changed. **Just search for and change the placeholder values in each code section.** Additionally, ensure that you have deleted all the extra file and folder rows that are unnecessary for your file listing, so not to confuse users.
 
