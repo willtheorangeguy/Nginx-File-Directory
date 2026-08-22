@@ -40,7 +40,7 @@ There isn't one, and that is faithful to the original. The page is unstyled pref
 The image name is lowercase — `ghcr.io/willtheorangeguy/nginx-file-directory`. GHCR requires
 lowercase, so the capitalised repository name will not work.
 
-## The listing shows files that do not exist.
+## The listing shows files that do not exist
 
 Leftover example lines. Deleting the ones you did not customise is a manual step nothing can
 check for you.

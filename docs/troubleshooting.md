@@ -53,7 +53,7 @@ to 8000, so use <http://localhost:8000/>.
 
 ## GitHub Pages is not updating
 
-`pages.yml` deploys on push to `main`. Check the Actions tab — the badge in the README
+`docs.yml` deploys on push to `main`. Check the Actions tab — the badge in the README
 reflects the last run.
 
 ## The copyright headers disappeared

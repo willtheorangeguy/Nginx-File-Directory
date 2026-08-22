@@ -21,7 +21,7 @@ directory. Leave `../` as the target to keep the link relative.
 
 ## 3. Add a line per entry
 
-```
+```text
 <a href="folder/">folder/</a>                                           MM-DD-YYYY HH:MM                    -
 <a href="file">file</a>                                              MM-DD-YYYY HH:MM                    -
 ```

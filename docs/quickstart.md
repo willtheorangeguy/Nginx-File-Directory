@@ -20,7 +20,7 @@ changing.
 
 **Add a line per entry** inside the `<pre>` block, following the examples:
 
-```
+```text
 <a href="notes.txt">notes.txt</a>                    08-17-2026 14:30                    1.1K
 ```
 

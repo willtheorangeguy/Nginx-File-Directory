@@ -11,7 +11,7 @@ which also covers deliberate non-goals.
 
 ## 1. Nothing protects the whitespace the layout depends on
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `index.html`, repository root
 
 **What:** The listing sits in a `<pre>` block and the columns align by literal spaces. There is no `.editorconfig` and no Prettier ignore rule.
@@ -22,7 +22,7 @@ which also covers deliberate non-goals.
 
 ## 2. The directory name appears twice
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `index.html`
 
 **What:** Both the `<title>` tag and the `<h1>` carry it.
@@ -33,7 +33,7 @@ which also covers deliberate non-goals.
 
 ## 3. Per-repo issue templates override the org-level forms
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `.github/ISSUE_TEMPLATE/`
 
 **What:** Same as the Apache and Chrome siblings.

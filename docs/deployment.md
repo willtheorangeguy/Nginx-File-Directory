@@ -35,7 +35,7 @@ Useful for previewing your edited copy rather than the published one.
 
 ## GitHub Pages
 
-`pages.yml` deploys on every push to `main`, keeping
+`docs.yml` deploys on every push to `main`, keeping
 <https://willtheorangeguy.github.io/Nginx-File-Directory/> current.
 
 Forking and enabling Pages gives you the same for your own copy — a hosted listing with no
@@ -45,7 +45,7 @@ server to run, which is one of the more genuinely useful things this project is 
 
 | Workflow             | Trigger        | Does                        |
 | -------------------- | -------------- | --------------------------- |
-| `pages.yml`          | push to `main` | Deploys to GitHub Pages     |
+| `docs.yml`          | push to `main` | Deploys to GitHub Pages     |
 | `docker-publish.yml` | push to `main` | Builds and pushes to GHCR   |
 | `gitleaks.yml`       | pushes and PRs | Scans for committed secrets |
 

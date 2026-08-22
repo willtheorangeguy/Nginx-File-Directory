@@ -3,7 +3,7 @@
 A static reproduction of the Nginx directory listing page. One HTML file of 21 lines, no
 icons, no stylesheet, no scripts.
 
-```
+```text
 Nginx-File-Directory/
 ├── docs/
 │   ├── README.md          this page

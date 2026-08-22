@@ -2,7 +2,7 @@
 
 ## The whole application
 
-```
+```text
 index.html      21 lines
 Dockerfile      Nginx, serving that one file
 ```
@@ -52,7 +52,7 @@ than necessity. Any web server, or none, will do.
 
 | Workflow             | Purpose                                   |
 | -------------------- | ----------------------------------------- |
-| `pages.yml`          | Deploys to GitHub Pages on push to `main` |
+| `docs.yml`          | Deploys to GitHub Pages on push to `main` |
 | `docker-publish.yml` | Publishes the image to GHCR               |
 | `gitleaks.yml`       | Scans for committed secrets               |
 
