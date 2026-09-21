@@ -1,4 +1,4 @@
-# Nginx File Directory Customization
+# Nginx File Directory — Configuration
 
 The Nginx File Directory has been designed to be heavily customizable. More file and folder listings can be added and directory paths can be changed. **Just search for and change the placeholder values in each code section.** Additionally, ensure that you have deleted all the extra file and folder rows that are unnecessary for your file listing, so not to confuse users.
 
@@ -14,19 +14,19 @@ All of these instructions require [a text editor](https://code.visualstudio.com/
 </head>
 ```
 
-2. _Line 10_: Update the `directory` placeholder text between the `<h1>...</h1>` tags with the actual directory path. This will be the title displayed on the page.
+1. _Line 10_: Update the `directory` placeholder text between the `<h1>...</h1>` tags with the actual directory path. This will be the title displayed on the page.
 
 ```html
 <h1>Index of /directory</h1>
 ```
 
-3. _Line 13_: If this is a directory inside of another directory, remove the `<!--` and `-->` to uncomment the link to the directory above the current directory.
+1. _Line 13_: If this is a directory inside of another directory, remove the `<!--` and `-->` to uncomment the link to the directory above the current directory.
 
 ```html
 <!--<a href="../">../</a>-->
 ```
 
-4. _Line 13_: If this is a directory inside of another directory, change the `../` between the `<a>...</a>` tags with the actual link to the folder above.
+1. _Line 13_: If this is a directory inside of another directory, change the `../` between the `<a>...</a>` tags with the actual link to the folder above.
 
 ## For a Folder
 
